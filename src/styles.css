@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* your css code here */
+
+body {
+  @apply .px-6 .py-3 .bg-gray-100;
+
+  h1 {
+    @apply .bg-red-300;
+  }
+}

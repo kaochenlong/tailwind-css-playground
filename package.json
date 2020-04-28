@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "server": "cross-env NODE_ENV=development concurrently \"postcss src/styles.css -o src/build/styles.css --watch\"  \"live-server ./src\"",
+    "development": "cross-env NODE_ENV=development postcss src/styles.css -o src/build/styles.css",
+    "production": "cross-env NODE_ENV=production postcss src/styles.css -o src/build/styles.css",
+    "start": "npm run server"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "tailwindcss": "1.3.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^6.1.2"
+  }
+}
