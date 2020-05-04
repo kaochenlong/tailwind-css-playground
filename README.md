@@ -7,7 +7,7 @@
 1. 直接 clone 或下載這個專案：
 
 ```bash
-$ git clone https://github.com/kaochenlong/tailwind-css-playground
+$ git clone https://github.com/kaochenlong/tailwind-css-playground.git
 $ cd tailwind-css-playground
 ```
 
